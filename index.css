@@ -1,8 +1,29 @@
 body{
     background-color: rgb(87, 76, 148);
 }
+.navbar{
+    text-align: center;
+}
 
+ul li{
+    background-color: crimson;
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    list-style-type:none;
+    font-size: 150%;
+    border: 5px solid;
+    margin: 2px black;
+    
+}
+ul li:hover{
+    z-index: 2;
+    list-style-type:none;
+    font-size: 220%;
+    color: chartreuse;
 
+}
 
 .form{
     z-index: 1;
@@ -25,4 +46,7 @@ body{
     width: 100%;
     height: 50px;
     top: -20px;
+}
+.form:hover{
+    background-color: aqua;
 }
